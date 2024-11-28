@@ -1,1 +1,58 @@
 /*Ini CSS file*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+@font-face {
+    font-family: 'Netflix Font';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Netflix Font'), url('https://fonts.cdnfonts.com/s/60043/Netflix Font.woff') format('woff');
+}
+.main-header {
+        margin:0px;
+        padding:0px;
+        display: flex;
+        justify-content: space-around;;
+        align-items: center;
+        background: black;
+        padding:10px 
+}
+
+.logo-icon {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    background-image: url(../Assets/logo-padadam.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-bar {
+    display: flex;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    src: local('Netflix Font'), url('https://fonts.cdnfonts.com/s/60043/Netflix Font.woff') format('woff');
+}
+
+.search-bar {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    background-image: url(../Assets/search\ icon.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main-banner {
+    width: 100%;
+    height:auto;
+    align-content: stretch;
+    justify-content: center;
+}
