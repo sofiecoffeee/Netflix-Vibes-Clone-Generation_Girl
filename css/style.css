@@ -49,6 +49,7 @@ nav {
 .menu-bar>a {
     cursor:pointer;
     color: white;
+    text-decoration: none;
 }
 
 .menu-bar>a:hover {
@@ -311,23 +312,13 @@ nav {
     transition: transform 0.3s ease-in-out;
 }
 
-.footer {
-    position: relative;
-    top: 100px;
-    background-color: #000;
-    color: #fff;
-    text-align: left;
-    padding: 20px;
-    font-size: 14px;
-}
-
 .logo-sosmed {
     display: flex;
     position: relative;
-    margin: 0 300px;
+    margin: 0 400px;
     top: 100px;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }
 
@@ -343,8 +334,8 @@ nav {
     display: flex;
     position: relative;
     top: 100px;
-    padding-top: 10px;
-    padding-left: 260px;
+    padding-top: 20px;
+    padding-left: 360px;
     border: 1px, black;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-style: normal;
@@ -360,19 +351,37 @@ nav {
 }
 
 .footer-text li {
-    margin: 5px
+    margin: 10px
 }
 
 .footer-text a {
-    color: #fff;
+    color: white;
     text-decoration: none; /* Hilangkan garis bawah */
     font-size: 14px;
 }
 
 .footer-text a:hover {
-    opacity: 0.7;
+    color: #E50914;
 }
 
+.service-code {
+    position: absolute; 
+    top: 150px; 
+    left: 450px;
+    padding: 10px;
+    transform: translateX(-50%); 
+    border: 2px solid white;
+    cursor: pointer;
+}
 
+.service-code:hover {
+    color: #E50914;
+}
 
-  
+.copyright {
+    position: absolute; 
+    top: 200px; 
+    left: 450px;
+    padding: 30px;
+    transform: translateX(-50%);
+}
